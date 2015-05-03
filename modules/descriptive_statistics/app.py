@@ -4,4 +4,4 @@ class Application():
 		self.main()
 
 	def main(self):
-		self.output = data
+		self.output = self.data
