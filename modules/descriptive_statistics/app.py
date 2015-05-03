@@ -1,6 +1,7 @@
-class DescriptiveStatistics():
+class Application():
 	def __init__(self,data):
-		return self.main()
+		self.data = data
+		self.main()
 
 	def main(self):
-		return True
+		self.output = data
