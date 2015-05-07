@@ -7,6 +7,8 @@ class Algorithm():
 	def main(self):
 		return []
 
-	def dataset_fields(self,key):
-		fields = self.schema(key)
-		return fields
+	def fields_by_key(self,key):
+		return self.schema[key]
+
+	def slice_data(self,field):
+		return [dic[field] for dic in listDict]

@@ -5,8 +5,10 @@ import numpy as np
 class Application(Algorithm):
 
 	def main(self):
-		x = self.data(self.dataset_fields('x_axis')[0])
-		y = self.data(self.dataset_fields('y_axis')[0])
+		x_axis_field = self.fields_by_key('x_axis')[0]
+		y_axis_field = self.fields_by_key('y_axis')[0]
+		x = self.slice_data(x_axis_field)
+		y = self.slice_data(y_axis_field)
 		slope, intercept, r_value, p_value, std_err = stats.linregress(x,y)
 		doc = {
 			'slope' : slope,
