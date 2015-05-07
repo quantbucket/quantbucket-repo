@@ -12,5 +12,9 @@
 			"type" : "number",
 			"max_items" : 1
 		}
+	],
+	"required" : [
+		"x_axis",
+		"y_axis"
 	]
 }
