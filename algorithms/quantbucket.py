@@ -1,7 +1,7 @@
-class Application():
+class Algorithm():
 	def __init__(self,data):
 		self.data = data
-		self.main()
+		self.output = self.main()
 
 	def main(self):
-		self.output = self.data
+		return []

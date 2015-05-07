@@ -1,0 +1,16 @@
+{
+	"schema" : [
+		{
+			"key" : "x_axis",
+			"description" : "Put your x data here",
+			"type" : "number",
+			"max_items" : 1
+		},
+		{
+			"key" : "y_axis",
+			"description" : "Put your y data here",
+			"type" : "number",
+			"max_items" : 1
+		}
+	]
+}
