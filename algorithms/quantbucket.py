@@ -6,3 +6,7 @@ class Algorithm():
 
 	def main(self):
 		return []
+
+	def dataset_fields(self,key):
+		fields = self.schema(key)
+		return fields

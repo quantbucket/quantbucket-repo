@@ -1,0 +1,12 @@
+{
+	"dataset" : 5,
+	"algorithm" : 1,
+	"schema" : {
+		"x_axis" : [
+			"months_loan_duration"
+		],
+		"y_axis" : [
+			"amount"
+		]
+	}
+}
