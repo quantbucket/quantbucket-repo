@@ -10,5 +10,5 @@ class Algorithm():
 	def fields_by_key(self,key):
 		return self.schema[key]
 
-	def slice_data(self,field):
-		return [dic[field] for dic in listDict]
+	def slice_data(self,field,_type):
+		return [_type(dic[field]) for dic in self.data]
