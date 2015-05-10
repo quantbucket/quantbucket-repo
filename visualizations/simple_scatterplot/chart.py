@@ -1,7 +1,7 @@
 from quantbucket import Base
+import StringIO
 import numpy as np
 import matplotlib.pyplot as plt
-import StringIO
 
 class Chart(Base):
 
