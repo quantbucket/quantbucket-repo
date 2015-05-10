@@ -43,3 +43,4 @@ class Chart(Base):
 		plt.legend(('Data', 'Isotonic Fit', 'Linear Fit'), loc='lower right')
 		plt.title('Isotonic regression')
 		plt.savefig(render,format='png')
+		return render
