@@ -1,8 +1,8 @@
-from quantbucket import Algorithm
+from quantbucket import Base
 from scipy import stats
 import numpy as np
 
-class Application(Algorithm):
+class Application(Base):
 
 	def main(self):
 		x_axis_field = self.fields_by_key('x_axis')[0]

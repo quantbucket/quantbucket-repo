@@ -1,4 +1,4 @@
-class Algorithm():
+class Base():
 	def __init__(self,data,schema):
 		self.data = data
 		self.schema = schema
